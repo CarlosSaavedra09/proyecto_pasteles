@@ -9,7 +9,6 @@
 </head>
 <body>
 <H1 class="title inflo">Pasteleria</H1>
-<p>hola</p>
 <ul class="barra">
     <li class="center nav-item active">
         <a class="nav-link" href="index.html">Menu principal</a>
@@ -25,20 +24,20 @@
     </li>
 </ul>
 <form id="email" action="conexionReClientes.php" method="post" name="email">
+    
     <div>
+        <h1 class="titulo">Registro</h1>
         <label for="num_cliente">Numero cliente</label>
         <input id="num_cliente" name="num_cliente" size="35" type="text" value="" />
-    </div>
-    <div>
+        <br>
         <label for="nomb_cliente">Nombre</label>
         <input id="nomb_cliente" name="nomb_cliente" size="35" type="text" value="" />
-    </div>
-    <div>
+        <br>
         <label for="tel_cliente">Telefono</label>
         <input id="tel_cliente" name="tel_cliente" size="35" type="text" value="" />
+        <br>
+        <input type="submit" name="btnRegistrar" value="Registrar"/>
     </div>
-    <input type="submit" name="btnRegistrar" value="Registrar"/>
-    <button class="centro">cas</button>
 </form>
 </body>
 </html> 
