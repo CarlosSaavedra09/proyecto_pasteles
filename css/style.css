@@ -1,0 +1,44 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #8A009E;
+    width: 100%;
+    border: 0px;
+}
+
+li {
+    float: left;
+    
+}
+
+li a {
+    display: block;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #333;
+}
+
+body{
+    background-color: rgba(138, 50, 158, 0.856);
+}
+
+.titulo{
+    background-color: #8A009E;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    border-radius: 0;
+}

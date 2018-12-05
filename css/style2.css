@@ -1,0 +1,24 @@
+.cen{
+    margin: auto;
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+}
+
+.subtitulo{
+    font-size: 40px;
+}
+
+.boton{
+    background-color: #8A009E;
+    color: white;
+    font-size: 20px;
+}
+
+.letra{
+    margin-top: 40px;
+    line-height: 2;
+    font-size: 20px;
+}
