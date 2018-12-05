@@ -4,6 +4,7 @@
     <title>Pagina Inicio Pasteleria</title>
     <link rel="stylesheet" type="text/css" href="../css/style.css">
     <link rel="stylesheet" type="text/css" href="../css/style2.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
     <script>
         <?php
             include_once('conexionCompra.php');

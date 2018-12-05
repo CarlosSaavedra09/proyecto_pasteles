@@ -4,6 +4,7 @@
     <title>Page Title</title>
     <link rel="stylesheet" type="text/css" href="../css/style.css">
     <link rel="stylesheet" type="text/css" href="../css/style2.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 </head>
 <body>
     <h1 class="titulo">Pasteleria</h1>
