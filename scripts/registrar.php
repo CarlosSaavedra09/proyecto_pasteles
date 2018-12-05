@@ -4,18 +4,14 @@
     <title>Pagina Inicio Pasteleria</title>
     <link rel="stylesheet" type="text/css" href="../css/style.css">
     <link rel="stylesheet" type="text/css" href="../css/style2.css">
-    <script>
-        include_once('conexionRegistrar.php');
-
-    </script>
 </head>
 <body>
     <h1 class="titulo">Pasteleria</h1>
     <ul>
         <li><a  href="../scripts/index.html">Pagina Principal</a></li>
-        <li><a href="http://localhost/proyecto_pasteles/scripts/compra.php">Compra</a></li>
+        <li><a href="http://localhost/proyecto_pasteles/scripts/compra.php">Pedido</a></li>
         <li><a class="active" href="#registrar">Registrar</a></li>
-        <li><a href="http://localhost/proyecto_pasteles/scripts/consultas.php">Cosultas</a></li>
+        <li><a href="http://localhost/proyecto_pasteles/scripts/consultas.php">Consultas</a></li>
     </ul>
 
     <form action="conexionRegistrar.php" method="post">

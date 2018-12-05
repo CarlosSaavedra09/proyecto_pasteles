@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Page Title</title>
+    <title>Pagina Inicio Pasteleria</title>
     <link rel="stylesheet" type="text/css" href="../css/style.css">
     <link rel="stylesheet" type="text/css" href="../css/style2.css">
 </head>
@@ -9,10 +9,11 @@
     <h1 class="titulo">Pasteleria</h1>
     <ul>
         <li><a  href="../scripts/index.html">Pagina Principal</a></li>
-        <li><a href="http://localhost/proyecto_pasteles/scripts/compra.php">Pedido</a></li>
-        <li><a class="active" href="#registrar">Registrar</a></li>
+        <li><a class="active" href="#compra">Pedido</a></li>
+        <li><a href="http://localhost/proyecto_pasteles/scripts/registrar.php">Registrar</a></li>
         <li><a href="http://localhost/proyecto_pasteles/scripts/consultas.php">Consultas</a></li>
     </ul>
+    
     <div class="cen letra">
         <?php
             $servername="127.0.0.1";
@@ -28,13 +29,6 @@
                 echo "Se conecto exitosamente a la BD ".$dbname;
                 echo("<br>");
             }
-            $Cve_idcliente=$_POST['txtClaveCliente'];
-            $Nombre_cliente=$_POST['txtNombreCliente'];
-            $Telefono_Cliente=$_POST['txtTelefono'];
-
-            echo "clave: ".$Cve_idcliente."<br>"." nombre: ".$Nombre_cliente."<br>".$Telefono_Cliente."<br>";
-
-            $sql = "INSERT INTO clientes (idClientes,nombre,telefono) VALUES ('$Cve_idcliente','$Nombre_cliente','$Telefono_Cliente')";
             
             if ($conn->query($sql) === TRUE) {
                 echo "New record created successfully";
