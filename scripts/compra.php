@@ -33,9 +33,9 @@
             <h2 class="subtitulo">Pedido de Pastel</h2>
             <br>
             <p>Ingrese su clave de cliente</p>
-            <input type="text" name="txt" maxlenght="45" />
+            <input type="text" name="txtClaveCliente" maxlenght="45" />
             <p>Ingrese la fecha de entrega</p>
-            <input type="text" name="txt" maxlenght="45" />
+            <input type="text" name="txtFechaEntrega" maxlenght="45" />
             <p>Seleccione el pastel</p>
             <select name="cmbpastel">
                 <?php
