@@ -12,7 +12,7 @@
         <li><a  href="../scripts/index.html">Pagina Principal</a></li>
         <li><a href="http://localhost/proyecto_pasteles/scripts/compra.php">Pedido</a></li>
         <li><a class="active" href="#registrar">Registrar</a></li>
-        <li><a href="../scripts/consultas.html">Consultas</a></li>
+        <li><a href="http://localhost/proyecto_pasteles/scripts/consultas.php">Consultas</a></li>
     </ul>
 
     <form action="conexionRegistrar.php" method="post">

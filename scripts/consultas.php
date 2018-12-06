@@ -19,19 +19,28 @@
     <div class="cen">
         <h2 class="subtitulo">Consultas</h2>
         <br>
-
-        <form action="http://localhost/proyecto_pasteles/scripts/con1.php" >
-                <button class="btn" type="submit">Button</button>
+        <p>ventas que a realizado el cliente y el precio del pastel</p>
+        <form action="http://localhost/proyecto_pasteles/scripts/con1.php" method="post">
+            <p>Ingrese la clave del cliente</p>
+            <input type="text" name="txtClaveCliente" maxlenght="45" />
+            <button class="btn" type="submit">Button</button>
         </form> 
         <br>
+        <p>saber que especificaciones de pastel tiene una venta</p>
         <form action="http://localhost/proyecto_pasteles/scripts/con2.php" >
+            <p>Ingrese la clave del cliente</p>
+            <input type="text" name="txtClaveCliente" maxlenght="45" />
             <button class="btn" type="submit">Button</button>
         </form>
         <br>
+        <p>saber tipo de diseño solicitado</p>
         <form action="http://localhost/proyecto_pasteles/scripts/con3.php" >
+            <p>Ingrese la clave del cliente</p>
+            <input type="text" name="txtClaveCliente" maxlenght="45" />
             <button class="btn" type="submit">Button</button>
         </form>
         <br>
+        <p>revizar los pedidos pendientes</p>
         <form action="http://localhost/proyecto_pasteles/scripts/con4.php" >
             <button class="btn" type="submit">Button</button>
         </form> 

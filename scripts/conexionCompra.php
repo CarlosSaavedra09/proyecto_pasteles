@@ -12,7 +12,7 @@
         <li><a  href="../scripts/index.html">Pagina Principal</a></li>
         <li><a class="active" href="#compra">Pedido</a></li>
         <li><a href="http://localhost/proyecto_pasteles/scripts/registrar.php">Registrar</a></li>
-        <li><a href="../scripts/consultas.html">Consultas</a></li>
+        <li><a href="http://localhost/proyecto_pasteles/scripts/consultas.php">Consultas</a></li>
     </ul>
     
     <div class="cen letra">
