@@ -33,6 +33,7 @@
             echo("<br>");
         }
         // include_once('con1.php');
+        // $cliente=$_POST['txtClave'];
         
         $sql = 'SELECT v.idventas,fecha_entrega,p.idpasteles,p.capacidad,p.pisos
         from ventas v

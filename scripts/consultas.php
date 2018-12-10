@@ -27,14 +27,14 @@
         </form> 
         <br>
         <p>saber que especificaciones de pastel tiene una venta</p>
-        <form action="http://localhost/proyecto_pasteles/scripts/con2.php" >
+        <form action="http://localhost/proyecto_pasteles/scripts/con2.php" method="post">
             <p>Ingrese la clave del cliente</p>
             <input type="text" name="txtClaveCliente" maxlenght="45" />
             <button class="btn" type="submit">Button</button>
         </form>
         <br>
         <p>saber tipo de diseño solicitado</p>
-        <form action="http://localhost/proyecto_pasteles/scripts/con3.php" >
+        <form action="http://localhost/proyecto_pasteles/scripts/con3.php" method="post">
             <p>Ingrese la clave del cliente</p>
             <input type="text" name="txtClaveCliente" maxlenght="45" />
             <button class="btn" type="submit">Button</button>
